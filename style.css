@@ -21,6 +21,40 @@ body {
     padding: 10px 100px 100px 100px;
     gap: 100px;
 }
+
+.quote-container {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 300px 100px 300px; 
+      
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-family: light-italic, Sans-serif;
+    color: #1F2937;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quoter {
+    display: flex;
+    align-self: flex-end;
+    font-weight: 900;
+    font-family: Arial, Sans-serif;
+}
 .header {
     display: flex;
     color: white;
