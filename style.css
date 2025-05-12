@@ -13,12 +13,55 @@ body {
     
 }
 
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 100px 100px 100px;
+    gap: 100px;
+}
 .header {
     display: flex;
     color: white;
     justify-content: space-between;   
 }
 
+.middle-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    
+}
+
+.middle-boxes {
+    display: flex;
+    justify-content: space-between:
+    align-items: center;
+    gap: 12px;
+}
+
+.middle-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.blue-box {
+    border: 5px solid blue;
+    border-radius: 12%;
+    width: 150px;
+    height: 150px;
+}
+
+.blue-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+}
 .logo {
     font-size: 24px;
     color: #F9FAF8;
