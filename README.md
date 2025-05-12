@@ -1,0 +1,1 @@
+Creating an entire web page based on https://www.theodinproject.com/lessons/foundations-landing-page guidelines.
