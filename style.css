@@ -174,6 +174,18 @@ body {
     
 }
 
+.footer {
+    display: flex;
+    background: #1F2937;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-text {
+    font-family: Roboto, Sans-serif;
+    color: #F9FAF8;
+}
 button {
     border: none;
     border-radius: 8px;
